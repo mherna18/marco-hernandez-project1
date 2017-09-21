@@ -1,0 +1,42 @@
+h1 {
+	font-family: 'Anton', sans-serif;
+	font-size: 4em;
+	background-color: red;
+	text-align: center;
+}
+
+body {
+	background-color: #92a8d1;
+}
+
+p {
+	font-size: 16px;
+}
+
+#info {
+	margin-left: 10em;
+	margin-right: 10em;
+}
+
+fieldset {
+	text-align: center;
+	border-width: 5px;
+	border-color: #58D68D;
+}
+
+.sports {
+	text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+#info {
+	text-align: center;	
+}
+
+.sports {
+	font-size: 16px;
+	width: 800px;
+	padding-left: 35px;
+	padding-bottom: 20px;
+	}
+}
