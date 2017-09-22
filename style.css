@@ -22,6 +22,11 @@ fieldset {
 	font-size: 20px;
 }
 
+#info {
+	margin-left: 15em;
+	margin-right: 15em;
+}
+
 .sports {
 	text-align: center;
 }
