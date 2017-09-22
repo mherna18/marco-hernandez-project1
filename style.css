@@ -17,6 +17,9 @@ fieldset {
 	text-align: center;
 	border-width: 5px;
 	border-color: #58D68D;
+	margin-left: 15em;
+	margin-right: 15em;
+	font-size: 20px;
 }
 
 .sports {
