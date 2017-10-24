@@ -6,11 +6,28 @@ h1 {
 }
 
 body {
-	background-image: url("teams.jpg");
+	background-color: #cccccc;
 }
 
 p {
 	font-size: 16px;
+}
+
+#team_image {
+	margin-left: 3em;
+	margin-top: 11em;
+	height: 15em;
+	width: 15em;
+	position: absolute;
+}
+
+#team_logo {
+	margin-right: 3em;
+	margin-top: 11em;
+	margin-left: 3em;
+	height: 17em;
+	width: 17em;
+	float: right; 
 }
 
 legend {
@@ -20,7 +37,7 @@ legend {
 fieldset {
 	text-align: center;
 	border-width: 5px;
-	border-color: #58D68D;
+	border-color: black;
 	background-color: #92a8d1;
 	margin-left: 15em;
 	margin-right: 15em;
@@ -28,17 +45,12 @@ fieldset {
 	font-family: 'Lato', sans-serif;
 }
 
-#info {
-	margin-left: 15em;
-	margin-right: 15em;
-}
-
 .sports {
 	text-align: center;
 }
 
 .sports input {
-	display: inline-blok;
+	display: inline-block;
 	float: left;
 	font-family: 'Oswald', sans-serif;
 }
